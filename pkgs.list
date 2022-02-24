@@ -1,5 +1,8 @@
-metasploit
-autosploit
+blackarch-forensics
+blackarch-networking
+blackarch-cracker
+blackarch-reversing
+blackarch-exploitation
 burpsuite
 gcc
 gdb
@@ -14,9 +17,6 @@ unzip
 zsh-completions
 zsh-syntax-highlighting
 zmap
-hashcat
-john
-hydra
 nikto
 radare
 impacket
