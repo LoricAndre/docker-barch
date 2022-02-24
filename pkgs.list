@@ -13,3 +13,10 @@ zip
 unzip
 zsh-completions
 zsh-syntax-highlighting
+zmap
+hashcat
+john
+hydra
+nikto
+radare
+impacket
