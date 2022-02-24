@@ -13,4 +13,4 @@ RUN yay -S --noconfirm --needed zsh neovim fzf ripgrep bat lazygit ranger python
 RUN sudo chsh ba -s /usr/bin/zsh
 COPY ./pkgs.list /tmp/pkgs.list
 RUN sudo pacman -S --needed --noconfirm $(cat /tmp/pkgs.list)
-ENTRYPOINT ["bash", "-l"]
+ENTRYPOINT ["zsh", "-l"]
