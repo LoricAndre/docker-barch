@@ -2,6 +2,7 @@ blackarch-forensics
 blackarch-networking
 blackarch-cracker
 blackarch-reversing
+blackarch-disassembler
 blackarch-exploitation
 burpsuite
 gcc
