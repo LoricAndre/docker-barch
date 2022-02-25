@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+NAME="$(echo $RANDOM | md5sum | cut -d' ' -f1)"
+
+docker run \
+  --network host \
+  --name $NAME \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -e DISPLAY=$DISPLAY \
+  -h $HOSTNAME \
+  -v $HOME/.Xauthority:/home/ba/.Xauthority \
+  -it \
+  $@
